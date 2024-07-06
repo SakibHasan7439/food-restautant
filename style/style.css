@@ -144,7 +144,7 @@
     text-align: center;
 }
 
-.txt-align .heading {
+.heading {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 26px;
@@ -173,7 +173,7 @@
 
 #about-us {
     width: 1056px;
-    margin: 50px auto;
+    margin: 100px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -181,7 +181,7 @@
 }
 
 #about-us .food-img-size {
-    width: 384px;
+    width: 500px;
 }
 
 #about-us .food-img-size .img-width {
@@ -190,8 +190,7 @@
 }
 
 .text-area {
-    width: 664px;
-    margin-left: 61px;
+    width: 556px;
 }
 
 .text-area .title {
@@ -202,4 +201,130 @@
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
+    margin: 17px 0;
+}
+
+.text-area .sub-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #000000;
+}
+
+.span-txt {
+    display: block;
+    padding: 22px 0;
+    border-bottom: 1px solid #000000;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+
+.social-icons {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.social-icons ul {
+    list-style-type: none;
+}
+
+.social-icons ul, li {
+    display: inline;
+}
+
+.social-icons ul, li, a{
+    font-size: 22px;
+    padding-right: 8px;
+}
+
+.single-card-section {
+    width: 1056px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn-position {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-section {
+    width: 664px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.footer-section .sub-title {
+    text-align: center;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.8;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.span-txt-footer {
+    display: block;
+    padding: 22px 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+
+.facebook {
+    color: blue;
+}
+
+.twitter {
+    color: #000000;
+}
+
+.instagram {
+    color: yellow;
+}
+
+.pinterest {
+    color: brown;
 }
